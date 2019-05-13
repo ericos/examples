@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@dojo/themes@^5.0.0",
+        "scope": "@dojo",
+        "escapedName": "@dojo%2fthemes",
+        "name": "@dojo/themes",
+        "rawSpec": "^5.0.0",
+        "spec": ">=5.0.0 <6.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/dojo/examples/custom-element-showcase"
+    ]
+  ],
+  "_from": "@dojo/themes@>=5.0.0 <6.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@dojo/themes@5.0.1",
+  "_inCache": true,
+  "_location": "/@dojo/themes",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/themes_5.0.1_1553098563986_0.8464587682008078"
+  },
+  "_npmUser": {
+    "name": "agubler",
+    "email": "agubler@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@dojo/themes@^5.0.0",
+    "scope": "@dojo",
+    "escapedName": "@dojo%2fthemes",
+    "name": "@dojo/themes",
+    "rawSpec": "^5.0.0",
+    "spec": ">=5.0.0 <6.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@dojo/themes/-/themes-5.0.1.tgz",
+  "_shasum": "4cd2849a7be6aaa317d094f804fddc2e5478d6e9",
+  "_shrinkwrap": null,
+  "_spec": "@dojo/themes@^5.0.0",
+  "_where": "/home/travis/build/dojo/examples/custom-element-showcase",
+  "bugs": {
+    "url": "https://github.com/dojo/themes/issues"
+  },
+  "dependencies": {},
+  "description": "Dojo Themes",
+  "devDependencies": {
+    "@dojo/cli": "^5.0.0",
+    "@dojo/cli-build-theme": "4.0.0-alpha.3",
+    "@dojo/scripts": "~3.1.0",
+    "cpx": "1.5.0",
+    "npm-run-all": "4.1.5",
+    "rimraf": "2.6.2",
+    "shx": "0.3.2",
+    "typescript": "2.6.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Ph/mQ3FZAV+ioVVrc/f3Sq4dOKFJ4cDMYYXI+CJbdOOpoRc9ydgOyONaAOBI5o56VJHnO5CrvFp6cLt83O3GnQ==",
+    "shasum": "4cd2849a7be6aaa317d094f804fddc2e5478d6e9",
+    "tarball": "https://registry.npmjs.org/@dojo/themes/-/themes-5.0.1.tgz",
+    "fileCount": 82,
+    "unpackedSize": 865277,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJckmdECRA9TVsSAnZWagAA+S8P/1+4zkyCrOj1Cwdl8amQ\ndDjLpS+2ykzGiN7G7rAYj1hgZQVGXT7DXfuIB3WxBBUxIN5jbzOkTpgqwJM6\nfnLtI81nKE+MdeWH6bO0Md3ObeDK9LUA2Of2eleg7Ms2kPX4mRZoUWgOFmpe\n674mlOnsHtTi7/QngKBxgiRD1UM/oAoaY7jkeDW+2EhShGqsurD6xz/ayYIi\ncFJvAxF/TNZJpLsV9bON1ZohlwCWZtWhcCH9176y5r5YyrE4qgTv9xJuMDG9\n/SfNSp7BQJ4isJ+pqYpoiwE/9Wd8K/G7ZyXl7KnXDJUCJASvbdFN6wrSH70K\nE8QWhDOGeNWodEkJVike97rSfY9xvuxuMybXU8VeGa3k4ESuBHGHZZPqr1+N\nsHcyAIFbgoqWrKsO5/5YhGTLhoO/v7IbhjPP+o7tDB+PpsfvZfc4hK6cX7Un\navmUZhOZd3PzpX7iE06lv1MCkElNlBRloYZbKMba+8Br8e4K0a4sR54wfB5m\nz02ESjcgKR2plZD5LFKyYpKU/eYhc9h4DM8i8nxCorYy8oPIJo97ZeTdoXrH\niaKKXZhDCP2XsTkUVDIhLqG51cxUFSj9U/7embC7VdO+HJ5kmWZ+at7cqEpU\nlYuMjFokM7hcNBHsL1dc3AAnG4GOudbC9JtqFNuTWnVMJnwlfrp0cJElGc4a\n2FOc\r\n=mb8C\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "homepage": "https://dojo.io",
+  "license": "BSD-3-Clause",
+  "main": "main.js",
+  "maintainers": [
+    {
+      "name": "agubler",
+      "email": "agubler@gmail.com"
+    },
+    {
+      "name": "dylans",
+      "email": "npm@dojotoolkit.org"
+    }
+  ],
+  "name": "@dojo/themes",
+  "optionalDependencies": {},
+  "readme": "# Dojo Themes\n\nPackage that contains a collection of Dojo themes.\n\n**Please Note:** If you are looking for Dojo 1 themes, these have been relocated to [`@dojo/dijit-themes`](https://github.com/dojo/dijit-themes). The github url registered with bower has also been updated to point to the new repository, if you encounter any issues please run `bower cache clean` and try again.\n\n## Usage\n\n### With Dojo applications\n\n1. Install `@dojo/themes` with `npm i @dojo/themes`.\n2. Import the theme CSS into your project's `main.css`: `@import '~@dojo/themes/dojo/index.css`.\n3. Import the theme module and pass it to the widgets you need themed:\n\n``` javascript\nimport theme from '@dojo/themes/dojo';\n\nrender() {\n\treturn w(Button, { theme }, [ 'Hello World' ]);\n}\n```\n\n### With custom elements\n\n1. Install `@dojo/themes` with `npm i @dojo/themes`.\n2. Add the custom element-specific theme CSS to `index.html`: `<link rel=\"stylesheet\" href=\"node_modules/@dojo/themes/dojo/dojo-{version}.css\">`.\n3. Add the custom element-specific theme JS to `index.html`: `<script src=\"node_modules/@dojo/themes/dojo/dojo-{version}.js\"></script>`.\n\n## Composition\n\nTo compose and extend the themes within a dojo project, run `npm i @dojo/themes` and use the `css-module` composes functionality.\nVariables can be used by using `@import` to import the `variables.css` file from a theme. This functionality is added by a `post-css` plugin within the dojo build command.\n\n``` css\n/* myButton.m.css */\n@import '@dojo/themes/dojo/variables.css';\n\n.root {\n\tcomposes: root from '@dojo/themes/dojo/button.m.css';\n\tbackground-color: var(--dojo-green);\n}\n```\n\n## Generating typings\n\nThe following `npm` scripts are available to facilitate development:\n\n- `build:tcm`: generate `.m.css.d.ts` files\n- `watch`: generate `.m.css.d.ts` files in watch mode\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dojo/themes.git"
+  },
+  "version": "5.0.1"
+}
